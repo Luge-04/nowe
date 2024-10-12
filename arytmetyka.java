@@ -4,5 +4,8 @@ public class arytmetyka {
             int b = 10;
             int c = a + b;
             System.out.println(a + "+" + b + "=" + c);
+            int costam = 10;
+            System.out.println(costam--);
+            System.out.println(--costam);
         }
 }
