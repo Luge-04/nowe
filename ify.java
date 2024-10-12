@@ -4,5 +4,9 @@ public class ify {
         if (temperature > 36.6f) {
             System.out.println("masz goraczke");
         }
+        else{
+            System.out.println("nie masz");
+        }
+
     }
 }
