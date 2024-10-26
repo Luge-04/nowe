@@ -1,0 +1,25 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class apka2 {
+    public static void main(String[] args) {
+        int number;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Podaj liczbe: ");
+        number = input.nextInt();
+        for (int i = 0; i < number; i++) {
+            System.out.println();
+            for (int k = 1; k <= number; k++) {
+                if (k == number) {
+                    System.out.print(k + " ");
+                } else {
+                    System.out.print(k + ", ");
+
+                            }
+
+                        }
+                    }
+                }
+            }
+
