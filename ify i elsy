@@ -1,0 +1,22 @@
+package org.example;
+
+public class nowe {
+    public static void main(String[] args){
+        System.out.println("aaaaa\n");
+        int number = 5;
+        if(number == 5){
+            System.out.println("liczba wynosi 5");
+            }
+        else if (number < 5) {
+                System.out.println("liczba jest mniejsza od 5");
+            }
+        else if (number > 5) {
+            System.out.println("liczba jest wieksza od 5");
+        }
+        else{
+            System.out.println("to nie jest liczba");
+        }
+        }
+    }
+
+
