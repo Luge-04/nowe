@@ -1,0 +1,19 @@
+package org.example;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class niewiem {
+    public static void main(String[] args){
+        int number;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Podaj liczbe: ");
+        try {
+            number = input.nextInt();
+            System.out.println("podana liczba jest " + number);
+        }
+        catch (InputMismatchException exception){
+            System.out.println("prosze podac liczbe calkowita");
+        }
+    }
+}
