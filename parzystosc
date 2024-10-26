@@ -1,0 +1,21 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class aplikacja {
+    public static void main(String[] args){
+        System.out.println("hello world");
+        int number;
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Podaj liczbe: ");
+        number = input.nextInt();
+        input.close();
+        if (number % 2 == 0){
+            System.out.println("liczba jest parzysta");
+        }
+        else{
+            System.out.println("liczba jest nieparzysta");
+        }
+    }
+}
