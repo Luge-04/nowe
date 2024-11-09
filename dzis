@@ -1,0 +1,25 @@
+package org.example;
+import java.sql.SQLOutput;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class cos {
+    public static void main(String[] args) {
+        int number = input("Podaj liczbę rat: ");
+        System.out.println(number);
+    }
+
+    static int input(String message){
+        try{
+            Scanner input = new Scanner(System.in);
+            System.out.print(message);
+            int number = input.nextInt();
+            input.close();
+            return number;
+        }
+        catch(InputMismatchException e){
+            System.out.println("Podano złą wartość!");
+            return input("Podaj liczbę: ");
+        }
+    }
+}
